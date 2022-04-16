@@ -1,0 +1,17 @@
+html, body, h1{
+	margin: 0;
+
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+img{
+    height: 100%;
+    background-color: transparent;
+}
