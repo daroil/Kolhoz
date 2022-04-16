@@ -110,6 +110,12 @@ main{
     background: rgb(208, 17, 17);
     color: white;
   }
-
+.link{
+    text-decoration: underline;
+    float: right;
+}
+.link:hover{
+    cursor: pointer;
+}
 
 

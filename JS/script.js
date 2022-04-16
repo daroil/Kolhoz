@@ -51,7 +51,11 @@ function requestProccessing(val)
 {
     let text = document.createElement('div');
     let wrap = document.createElement('div');   
-    let input = document.createElement('div')
+    let input = document.createElement('div');
+    let link = document.createElement('a')
+    link.innerHTML = 'see details';
+    link.className = 'link'
+
     if (val) 
     {
         text.className = 'success';
@@ -66,6 +70,9 @@ function requestProccessing(val)
     wrap.className = 'wrapper';
     notification.append(wrap);
     text.append(input);
+    text.append(link);
     wrap.append(text);
+
     
 }
+
