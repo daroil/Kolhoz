@@ -11,14 +11,23 @@
 </head>
 <body>
 	<header>
-        <div class="img">
+        <div class="img" id="img">
             <img  src="img/notif.png">
         </div>
     </header>
     <main>
+    	<label for="name">input your request:</label>
 
+		<input type="text" id="name" name="name" required
+        minlength="4" maxlength="8" size="10">
+        <button class="button-5" role="button">send request</button>
+    	
     </main>
-    <div class="notification">
+    <div class="notification" id="notification">
+    	<div>
+    		Notification:
+    	</div>
+
     </div>
 </body>
 <script src="js/script.js"></script>
