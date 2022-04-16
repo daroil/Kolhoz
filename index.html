@@ -16,18 +16,20 @@
         </div>
     </header>
     <main>
-    	<label for="name">input your request:</label>
+    	<label for="form">input your request:</label>
 
-		<input type="text" id="name" name="name" required
-        minlength="4" maxlength="8" size="10">
-        <button class="button-5" role="button">send request</button>
+		<input type="text" id="form" name="form">
+        <button class="button-5" role="button" id="request">Send request</button>
     	
     </main>
-    <div class="notification" id="notification">
+    <div class="notification hidden" id="notification">
     	<div>
     		Notification:
     	</div>
-
+		<button type="button" class="back" id="back">
+			<span class="line"></span>
+			<span class="line"></span>
+		</button>	
     </div>
 </body>
 <script src="js/script.js"></script>

@@ -11,6 +11,9 @@ body{
     width: 100px;
     background-color: transparent;
 }
+.img:hover{
+    cursor: pointer;
+}
 img{
     height: 100%;
     background-color: transparent;
@@ -48,9 +51,65 @@ main{
     visibility: hidden;
 
 }
-
-
-
+.back{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.line{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin-block: 10px;
+    border-radius: 4px;
+    
+}
+.line:nth-child(1){
+    transform: translateY(6.4px)
+    rotate(45deg);
+}
+.line:nth-child(2){
+    transform: translateY(-6.4px)
+    rotate(-45deg);
+}
+.alert{
+	justify-content: center;
+	text-align: center;
+	min-height: 40px;
+	min-width: 200px;
+	background-color: #ff8080;
+	border-radius: 5px;
+	color: whitesmoke;
+    padding: 10px;
+}.success{
+	justify-content: center;
+	text-align: center;
+	min-height: 40px;
+	min-width: 200px;
+    padding: 10px;
+	background-color: #0ab738;
+	border-radius: 5px;
+	color: whitesmoke;
+}
+.wrapper{
+	display: flex; 
+	justify-content: center;
+	text-align: center;
+}
+.circle {
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    position: absolute;
+    background: rgb(208, 17, 17);
+    color: white;
+  }
 
 
 
