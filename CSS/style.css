@@ -23,7 +23,8 @@ header{
     border-style: solid;
     border-width: 1px;
     display: flex; 
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
 
 
 }
@@ -97,6 +98,7 @@ main{
 	display: flex; 
 	justify-content: center;
 	text-align: center;
+    margin: 5px;
 }
 .circle {
     width: 40px;
@@ -109,6 +111,7 @@ main{
     position: absolute;
     background: rgb(208, 17, 17);
     color: white;
+    right: 0px;
   }
 .link{
     text-decoration: underline;
